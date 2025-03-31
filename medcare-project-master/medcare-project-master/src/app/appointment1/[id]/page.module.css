@@ -1,0 +1,135 @@
+/* styles/DoctorProfile.module.css */
+.profileContainer {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.name {
+    font-size: 32px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.specification {
+    font-size: 22px;
+    font-weight: 600;
+    color: #16a085;
+    margin-bottom: 8px;
+}
+
+.description {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+    max-width: 800px;
+}
+
+.details {
+    font-size: 16px;
+    color: #444;
+    margin: 10px 0;
+}
+
+/* Grid Layout for Details */
+.infoGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.infoItem {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+/* Styling the Availability Table */
+.table {
+    width: 100%;
+    max-width: 700px;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.table th, .table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.table th {
+    background-color: #16a085;
+    color: white;
+    font-weight: bold;
+}
+
+/* Book Appointment Button */
+.bookButton {
+    display: inline-block;
+    padding: 12px 20px;
+    margin-top: 20px;
+    background: #16a085;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.bookButton:hover {
+    background: #138f75;
+}
+
+/* Review Section */
+.reviewsSection {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.reviewsSection h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.reviewCard {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .infoGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .table {
+        font-size: 14px;
+    }
+
+    .bookButton {
+        font-size: 16px;
+        padding: 10px 18px;
+    }
+}

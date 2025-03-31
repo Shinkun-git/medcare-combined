@@ -1,0 +1,45 @@
+[
+    {
+      "name": "Dr Jane Doe, MBBS",
+      "specialty": "Dentist",
+      "experience": "9 Years",
+      "ratings": 5,
+      "image": "/jane-doe.png"
+    },
+    {
+      "name": "Dr Sam Wilson, BDS",
+      "specialty": "Dentist",
+      "experience": "5 Years",
+      "ratings": 5,
+      "image": "/sam-wilson.png"
+    },
+    {
+      "name": "Dr Pepper Potts, BHMS",
+      "specialty": "Dentist",
+      "experience": "5 Years",
+      "ratings": 5,
+      "image": "/pepper-potts.png"
+    },
+    {
+      "name": "Dr Tony Stark, MDS",
+      "specialty": "Dentist",
+      "experience": "4 Years",
+      "ratings": 5,
+      "image": "/tony-stark.png"
+    },
+    {
+      "name": "Dr Meghan, MD",
+      "specialty": "Dentist",
+      "experience": "3 Years",
+      "ratings": 5,
+      "image": "/meghan.png"
+    },
+    {
+      "name": "Dr Dev Patel, FNB",
+      "specialty": "Dentist",
+      "experience": "2 Years",
+      "ratings": 5,
+      "image": "/dev-patel.png"
+    }
+  ]
+  

@@ -1,0 +1,89 @@
+.container {
+    box-shadow: 0px 2px 11px 0px #00000019;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+    width: 100%;
+    border-radius: 1em;
+    flex: 1;
+}
+
+.SlotTop {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1.5em;
+    box-sizing: border-box;
+    border-bottom: 1px solid #70707026;
+}
+
+.timeHead {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.timeHead>span {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.SlotTag {
+    border: 1px solid #EDEBFF;
+    background-color: #FAF5FF;
+    padding: 0.6em 1.3em;
+    border-radius: 1.5em;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 0.8em;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000E5;
+}
+
+.SlotContent{
+    padding: 1.5em 3em;
+    background-color: #FFFFFF;
+}
+
+.SlotTimings{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.5em 0.8em;
+    justify-content: space-evenly;
+    align-content: space-between;
+    pointer-events: auto !important;
+}
+
+@media screen and (max-width:1360px){
+    .SlotContent{
+        padding: 1.5em 2em;
+    }
+}
+@media screen and (max-width:1300px){
+    .SlotContent{
+        padding: 1.5em 1em;
+    }
+}
+@media screen and (max-width:1215px){
+    .SlotContent{
+        padding: 1.5em 0.5em;
+    }
+    
+}
+@media screen and (max-width:1170px){
+    .SlotTimings{
+        gap: 0.5em 0.5em;
+    }
+}
+
+@media(max-width: 550px){
+    .SlotTimings{
+        gap: 0.25em 0.25em;
+    }
+}

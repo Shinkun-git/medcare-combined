@@ -1,0 +1,36 @@
+.container {
+    width: 100%;
+    min-height: 300px;
+    overflow: hidden;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchField {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 250px;
+    height: inherit;
+    gap: 2.5em;
+    padding: 3em 1.5em;
+    border: 1px solid #FFFFFF;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 3px 15px 0px #0000001A;
+    background-color: #ffffff;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchField span {
+    color: #0E2515;
+    font-size: 2em;
+    line-height: 100%;
+    /* letter-spacing: -1%; */
+    vertical-align: middle;
+}
