@@ -16,7 +16,7 @@
 }
 
 .searchField {
-    width: 70%;
+    width: 35em;
     height: 80%;
     box-sizing: border-box;
     padding: 2em 1.5em;
@@ -106,9 +106,16 @@
     margin-bottom: 15px;
 }
 
+@media screen and (max-width:700px){
+    .searchField{
+        width:80%;
+        padding: 1.5em 1em;
+    }
+}
+
 @media screen and (max-width:425px){
     .searchField{
         width:90%;
-        padding: 1.5em 1em;
+        padding: 1em 0.75em;
     }
 }

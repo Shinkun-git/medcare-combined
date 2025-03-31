@@ -17,7 +17,7 @@
 
 .searchField {
     box-sizing: border-box;
-    width: 70%;
+    width: 35em;
     height: 80%;
     padding: 1.5em;
     display: flex;
@@ -93,21 +93,28 @@
     margin-bottom: 15px;
 }
 
-@media screen and (max-width:530px){
+@media screen and (max-width:700px){
     .searchField{
         width:80%;
         padding: 1.5em 1em;
     }
 }
+
+@media screen and (max-width:530px){
+    .searchField{
+        width:85%;
+        padding: 1.5em 0.75em;
+    }
+}
 @media screen and (max-width:425px){
     .searchField{
         width:90%;
-        padding: 1.25em 0.75em;
+        padding: 1.25em 0.5em;
     }
 }
 @media screen and (max-width:375px){
     .searchField{
         width:95%;
-        padding: 1em 0.5em;
+        padding: 1em 0.25em;
     }
 }
