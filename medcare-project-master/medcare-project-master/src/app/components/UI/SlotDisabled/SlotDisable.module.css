@@ -1,0 +1,30 @@
+.slotBtn {
+    width: 23%;
+    border: 1px solid #FFFFFF;
+    border-radius: 0.5em;
+    background-color: #DEDEDE;
+    padding: 1em 1.5em;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: #9092A3;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    white-space: nowrap;
+    text-align: center;
+}
+
+@media screen and (max-width: 550px){
+    .slotBtn{
+        font-size:0.75em;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .slotBtn{
+       width:30%;
+       /* font-size: 1em; */
+    }
+}

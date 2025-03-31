@@ -1,0 +1,67 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 8;
+    align-items: stretch;
+}
+
+.pageButton {
+    padding: 12 16;
+    width: 40;
+    height: 40;
+    border-radius: 6px;
+    gap: 10px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: #8C8C8C;
+    border: none;
+    background: none;
+}
+
+
+/* .pageButton>span {
+} */
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    border-radius: 6px;
+    padding: 0.5em;
+}
+
+.pageArrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    border-radius: 6px;
+    padding: 0.75em;
+}
+
+.pageArrow div {
+    width: 16;
+    height: 16;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageArrow img {
+    color: #8C8C8C;
+}
+
+.pageArrow span {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #8C8C8C;
+}

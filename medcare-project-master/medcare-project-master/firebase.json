@@ -1,0 +1,20 @@
+{
+  "hosting": {
+    "public": "public",
+    "github": {
+    "repo": "Shinkun-git/medcare-project",
+    "branch": "master"
+  },
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
